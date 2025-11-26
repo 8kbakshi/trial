@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+    first name: <input type="text" id="fname"><br>
+    last name: <input type="text" id="lname"><br>
+    <button type="button" onclick="myFunction()">Submit</button>
+    <p id="demo"></p>
+    <script>
+    function myFunction() {
+        var firstName = document.getElementById("fname").value;
+        var lastName = document.getElementById("lname").value;
+        var fullName = firstName + " " + lastName;
+        document.getElementById("demo").innerHTML = "Full Name: " + fullName;
+    }
+    </script>
+</body>
+</html>
