@@ -52,6 +52,7 @@ const handleLog = () => {
       <button onClick={handleSubmit}>Submit</button>
       <button onClick={handleReset}>Reset</button>
       <button onClick={clearForm}>Clear All</button>
+      <button onClick={handleLog}>Log Values</button>
       <div>
         {Array.from({ length: 5 }).map((_, index) => <h1 key={index}>Hello World {index}</h1>)}
       </div>
