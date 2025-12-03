@@ -56,6 +56,8 @@ const handleLog = () => {
       <div>
         {Array.from({ length: 5 }).map((_, index) => <h1 key={index}>Hello World {index}</h1>)}
       </div>
+      <hr />
+      <p>Form Status: {validateForm() ? "Valid" : "Invalid"}</p>
     </div>
   );
 }
