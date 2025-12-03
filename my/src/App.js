@@ -36,6 +36,7 @@ const handleChange = (value, setter) => {
       <h5>Fifth State Value: {fifth}</h5>
       <input type="text" value={fifth} onChange={(e) => setFifth(e.target.value)} />
       <button onClick={chk}>Click Me</button>
+      <button onClick={handleSubmit}>Submit</button>
       <div>
         {Array.from({ length: 5 }).map((_, index) => <h1 key={index}>Hello World {index}</h1>)}
       </div>
