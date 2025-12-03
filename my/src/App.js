@@ -5,6 +5,7 @@ import { useState } from 'react';
 function App() {
 
 const [first, setfirst] = useState("");
+const [second, setSecond] = useState("");
 const chk = () =>{
   console.log("button clicked");
 }
