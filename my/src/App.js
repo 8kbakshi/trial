@@ -24,6 +24,13 @@ const handleChange = (value, setter) => {
 const validateForm = () => {
   return first && second && third;
 }
+const clearForm = () => {
+  setfirst("");
+  setSecond("");
+  setThird("");
+  setFourth("");
+  setFifth("");
+}
 
 
   return (
