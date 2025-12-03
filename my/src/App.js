@@ -21,6 +21,9 @@ const handleReset = () => {
 const handleChange = (value, setter) => {
   setter(value);
 }
+const validateForm = () => {
+  return first && second && third;
+}
 
 
   return (
