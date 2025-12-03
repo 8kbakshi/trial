@@ -1,23 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
+import { useState } from 'react';
 
 function App() {
+
+const [first, setfirst] = useState("");
+const chk = () =>{
+  console.log("button clicked");
+}
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>First State Value: {first}</h1>
+      <input type="text" value={first} onChange={(e) => setfirst(e.target.value)} />
+      <button onClick={chk}>Click Me</button>
+      <div>
+        {Array.from({ length: 5 }).map((_, index) => <h1 key={index}>Hello World {index}</h1>)}
+      </div>
     </div>
   );
 }
