@@ -15,6 +15,9 @@ const chk = () =>{
 const handleSubmit = () => {
   console.log("Form submitted");
 }
+const handleReset = () => {
+  console.log("Form reset");
+}
 
 
   return (
