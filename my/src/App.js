@@ -31,6 +31,8 @@ const handleChange = (value, setter) => {
       <input type="text" value={second} onChange={(e) => setSecond(e.target.value)} />
       <h3>Third State Value: {third}</h3>
       <input type="text" value={third} onChange={(e) => setThird(e.target.value)} />
+      <h4>Fourth State Value: {fourth}</h4>
+      <input type="text" value={fourth} onChange={(e) => setFourth(e.target.value)} />
       <button onClick={chk}>Click Me</button>
       <div>
         {Array.from({ length: 5 }).map((_, index) => <h1 key={index}>Hello World {index}</h1>)}
