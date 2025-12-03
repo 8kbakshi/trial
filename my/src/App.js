@@ -7,6 +7,7 @@ function App() {
 const [first, setfirst] = useState("");
 const [second, setSecond] = useState("");
 const [third, setThird] = useState("");
+const [fourth, setFourth] = useState("");
 const chk = () =>{
   console.log("button clicked");
 }
