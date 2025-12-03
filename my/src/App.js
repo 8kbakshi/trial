@@ -58,6 +58,7 @@ const handleLog = () => {
       </div>
       <hr />
       <p>Form Status: {validateForm() ? "Valid" : "Invalid"}</p>
+      <p>Total Fields Filled: {[first, second, third, fourth, fifth].filter(v => v).length} / 5</p>
     </div>
   );
 }
