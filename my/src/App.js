@@ -18,6 +18,9 @@ const handleSubmit = () => {
 const handleReset = () => {
   console.log("Form reset");
 }
+const handleChange = (value, setter) => {
+  setter(value);
+}
 
 
   return (
