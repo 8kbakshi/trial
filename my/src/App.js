@@ -31,6 +31,9 @@ const clearForm = () => {
   setFourth("");
   setFifth("");
 }
+const handleLog = () => {
+  console.log({ first, second, third, fourth, fifth });
+}
 
 
   return (
