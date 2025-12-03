@@ -10,6 +10,9 @@ const [third, setThird] = useState("");
 const chk = () =>{
   console.log("button clicked");
 }
+const handleSubmit = () => {
+  console.log("Form submitted");
+}
 
 
   return (
